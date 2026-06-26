@@ -1,0 +1,10 @@
+# Copy to terraform.tfvars and fill in your values.
+# Never commit terraform.tfvars to version control.
+
+aws_region         = "us-east-1"
+environment        = "prod"
+owner_tag          = "security-team"
+alert_email        = "security-alerts@yourcompany.com"
+log_retention_days = 90
+block_ttl_hours    = 24
+max_firewall_rules = 1000
